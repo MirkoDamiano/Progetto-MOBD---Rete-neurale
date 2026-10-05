@@ -1,0 +1,9 @@
+NUM_EPOCHS = 30
+ALPHA = 0.001
+MINI_BATCH_SIZE = 32
+
+K_FOLDS = 5
+L = 2 # Numero di strati nascosti
+
+HIDDEN_LAYER_NEURONS_LIST = [12, 16, 32]
+LAMBDA_LIST = [0, 1e-3, 0.1]
